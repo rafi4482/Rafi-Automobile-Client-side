@@ -1,0 +1,11 @@
+.footer-design{
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1000px;
+    color: rgb(253, 249, 5);
+    background-color: rgb(26, 7, 97);
+}
+.footer-design a{
+    text-decoration: none;
+    color: white;
+}

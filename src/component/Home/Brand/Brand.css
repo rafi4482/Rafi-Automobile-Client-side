@@ -1,0 +1,24 @@
+.carding{
+    background-color: rgb(2, 33, 43);
+    color: rgb(243, 242, 239);
+    font-family: monospace;
+    border-radius: 10px;
+     height: 550px;
+     border: 2px solid rgb(244, 248, 6);
+     margin-top: 20px;
+ }
+ .header-align{
+     margin: 50px;
+     text-align: center;
+ }
+  .cards-align{
+     text-align: center;
+     margin-bottom: 50px;
+ } 
+ .carding img{
+     height: 300px;
+    align-items: center;
+}
+.card-details{
+    text-align: center;
+}
