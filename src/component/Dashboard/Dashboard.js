@@ -42,7 +42,7 @@ const Dashboard = () => {
             <div className="dashboard-container container">
                 <div className="row">
                     <div className="col-md-4">
-                        <div className="dashboard">
+                        <div className="align dashboard">
                             <h4>DASHBOARD</h4>
                             <Link to={`${url}`} >
                                <li className="dashboard-menu">Pay </li>
@@ -78,7 +78,7 @@ const Dashboard = () => {
                     <div className="container col-md-8">
                        <Switch>
                            <Route exact path={path}>
-                               <h2>Payment system coming soon</h2>
+                               <h2 className='align'>Payment system coming soon</h2>
                            </Route>
                            <Route  path={`${path}/BookingList`}>
                                 <MyBookings></MyBookings>

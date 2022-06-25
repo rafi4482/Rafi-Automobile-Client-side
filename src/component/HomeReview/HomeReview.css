@@ -1,7 +1,7 @@
-.card-styling{ 
+/* .card-styling{ 
     border: 2px solid rgb(224, 206, 104);
     background-color: rgb(223, 240, 222);
-    padding: 50px;
+    padding: 70px;
     border-radius: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(76, 51, 216);
@@ -9,4 +9,97 @@
 .review-align{
     margin-top: 20px;
     text-align: center;
+} */
+
+
+
+*{
+  
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
+/* .carding-review{
+    background-color: rgb(115, 0, 117);
+    color: rgb(243, 242, 239);
+    font-family: monospace;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+     height: 300px;
+     border: 2px solid rgb(244, 248, 6);
+     margin-top: 20px;
+ } */
+ /* .header-align{
+     margin: 50px;
+     text-align: center;
+ } */
+  /* .cards-align{
+     text-align: center;
+     margin-bottom: 50px;
+ }  */
+
+/* .card-details{
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  } */
+
+
+
+  .carding5{
+    background-color: rgb(67, 172, 214);
+    color: rgb(243, 242, 239);
+    font-family: monospace;
+    border-radius: 10px;
+     height: 550px;
+     border: 2px solid rgb(42, 3, 121);
+     margin-top: 20px;
+ }
+ .header-align{
+     margin: 50px;
+     text-align: center;
+ }
+  .cards-align{
+     text-align: center;
+     margin-bottom: 50px;
+ } 
+ /* .carding img{
+     height: 300px;
+    align-items: center;
+} */
+.card-details{
+    text-align: center;
+}
+
+  
+  /* .card {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+     min-height: 200px; 
+    height: 300px;
+    display: grid;
+    grid-template-rows: 20px 50px 1fr 50px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+  }
+   */
+  /* .card:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+    transform: scale(1.01);
+  }
+
+  .card-1 {
+    color: white;
+    background: radial-gradient(#1fe4f5, #3fbafe);
+  }
+ */
+
+  

@@ -27,7 +27,8 @@ const Brand = () => {
                             </div>
                             <h1>{brands?.name}</h1>
                                 <h1>{brands?.price}</h1>
-                            <p>{brands?.desc}</p>
+                             <p>{brands?.desc}</p> 
+                            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut vel labore at, voluptates unde enim sit sapiente beatae nisi.</p> */}
                              <Link to={`/purchase/${brands?._id}`}>
                                 <button className="btn btn-warning">Purchase</button>
                             </Link>  

@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import initializeAuthentication from '../../Firebase/firebase.init';
-
+import './Login.css'
 
 initializeAuthentication()
 
@@ -56,8 +56,8 @@ const Login = () => {
 
   return (
     <>
-      <h1 className="align">Login</h1>
-      <div className="align">
+      <h1 className="align2">Login</h1>
+      <div className="align2">
         <Form onSubmit={handlogin}>
           <Form.Group onChange={handleEmailChange} className="mb-3" controlId="formBasicEmail">
             <Form.Label>Enter Your Email address</Form.Label>
@@ -65,11 +65,11 @@ const Login = () => {
           </Form.Group>
 
           <Form.Group onChange={handlePasswordChange} className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Emter Your Password</Form.Label>
+            <Form.Label>Enter Your Password</Form.Label>
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
           <div className='text-danger'>{error}</div>
-          <div className="b-align">
+          <div className="btn-align">
             <Button variant="danger" type="submit">
               Submit
             </Button>
@@ -78,8 +78,8 @@ const Login = () => {
         </Form>
 
       </div>
-      <div className="b-align">
-        <p>New member?<Link to='/register'>Create an account</Link></p>
+      <div className="btn-align">
+        <h4>New member?<Link to='/register'> Create an account</Link></h4>
 
       </div>
    

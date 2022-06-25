@@ -8,7 +8,7 @@ const Extra = () => {
         
         
         <div className="align container">
-        <h2>FREQUENTLY ASKED QUESTIONS ABOUT US</h2>
+        <h2 >FREQUENTLY ASKED QUESTIONS ABOUT US</h2>
         <Accordion defaultActiveKey="0" flush>
   <Accordion.Item eventKey="0">
     <Accordion.Header>Is any customization possible?</Accordion.Header>

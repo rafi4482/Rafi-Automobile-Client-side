@@ -1,5 +1,12 @@
 
 .align h2{
-   margin: 20px;
+    /* padding: 40px; */
+   /* margin: 20px; */
     text-align: center;
+    margin-bottom: 50px;
+  
+}
+.align{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
