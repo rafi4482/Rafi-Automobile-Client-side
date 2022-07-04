@@ -2,14 +2,16 @@ import React from 'react';
 import { Container,  Navbar, Nav  } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
 
+import './Navigation.css';
+
 const Navigation = () => {
   const{user,logOut}=useAuth()
 
     return (
         <>
                      
-            <Navbar bg="light" expand="lg">
-  <Container>
+            <Navbar className="alignnavbar" bg="light" expand="lg">
+  <Container className="alignnavbar">
     <Navbar.Brand href="#home">RAFI AUTOMOBILE</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">

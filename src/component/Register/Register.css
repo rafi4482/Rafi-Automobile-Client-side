@@ -1,0 +1,12 @@
+.btn-align{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.align2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

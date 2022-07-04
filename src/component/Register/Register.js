@@ -65,12 +65,12 @@ const Register = () => {
   return (
     <>
 
-      <div className='b-align'>
+      <div className="align2">
         <h1>Register</h1>
       </div>
 
 
-      <div className="reg-align">
+      <div className="align2">
         <Form onSubmit={handreg}>
           <Form.Group   onChange={handleEmailChange} className="mb-3" controlId="formBasicEmail">
             <Form.Label>Enter Your Email address</Form.Label>
@@ -83,7 +83,7 @@ const Register = () => {
             <Form.Control type="password" placeholder="Password" required />
           </Form.Group>
             <div className='text-danger'>{error}</div>
-          <div className="b-align">
+          <div className="btn-align">
         <Button variant="primary" type="submit">
           Register
         </Button>
@@ -92,8 +92,8 @@ const Register = () => {
         </Form>
       </div>
       
-      <div className="b-align">
-        <p>Already registered?<Link to='/login'>sign in</Link></p>
+      <div className="btn-align">
+        <h5>Already registered?<Link to='/login'>Sign in</Link></h5>
       </div>
 
     </>
