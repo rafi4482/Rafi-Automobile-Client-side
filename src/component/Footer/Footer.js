@@ -19,7 +19,7 @@ const Footer = () => {
             </ul>
         </div>
         <div className="footer-bottom">
-            <p>copyright &copy;2020 codeOpacity. designed by <span>nethunt</span></p>
+            <p>copyright &copy;2020 </p>
         </div>
       </div>  
 //         <div className="footer-design">

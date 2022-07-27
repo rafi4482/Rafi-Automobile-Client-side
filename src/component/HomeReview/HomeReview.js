@@ -26,9 +26,7 @@ const HomeReview = () => {
                                 <h1>{reviews?.price}</h1>
                              <p>{reviews?.desc}</p> 
                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ut vel labore at, voluptates unde enim sit sapiente beatae nisi.</p> 
-                             <Link to={`/purchase/${reviews?._id}`}>
-                                <button className="btn btn-warning">Purchase</button>
-                            </Link>  
+                            
                         </div>
                     </div>)
                 }
