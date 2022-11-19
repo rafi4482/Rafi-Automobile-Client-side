@@ -18,7 +18,7 @@ const Purchase = () => {
        
         data.email=user?.email
         data.status="pending"
-        fetch('https://secret-castle-09652.herokuapp.com/placeorder',{
+        fetch('https://rafi-automobile-server-side.onrender.com/placeorder',{
 
             method:"POST",
             headers:{"content-type":"application/json"},
@@ -30,7 +30,7 @@ const Purchase = () => {
             alert('product successfully added')
     }
     useEffect(() => {
-        fetch(`https://secret-castle-09652.herokuapp.com/addproduct/${id}`)
+        fetch(`https://rafi-automobile-server-side.onrender.com/addproduct/${id}`)
             .then(res => res.json())
             .then(data => {
                 setPurchase(data)

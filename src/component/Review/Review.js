@@ -8,7 +8,7 @@ const Review = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const {user}=useFirebase()
     const onSubmit = (data) => {
-        fetch('https://secret-castle-09652.herokuapp.com/addReview',{
+        fetch('https://rafi-automobile-server-side.onrender.com/addReview',{
 
             method:"POST",
             headers:{"content-type":"application/json"},

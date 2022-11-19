@@ -6,7 +6,7 @@ const Explore = () => {
     const [brand,setBrand]=useState([])
     
     useEffect(() => {
-        fetch('https://secret-castle-09652.herokuapp.com/addproduct')
+        fetch('https://rafi-automobile-server-side.onrender.com/addproduct')
             .then(res => res.json())
             .then(data => setBrand(data))
     }, [])

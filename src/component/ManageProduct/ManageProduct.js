@@ -5,13 +5,13 @@ const ManageProduct = () => {
     const [order,setOrder]=useState([])
     
     useEffect(() => {
-        fetch('https://secret-castle-09652.herokuapp.com/addproduct')
+        fetch('https://rafi-automobile-server-side.onrender.com/addproduct')
             .then(res => res.json())
             .then(data => setOrder(data))
     }, [])
 
     const handleDelete=(id)=>{
-        fetch(`https://secret-castle-09652.herokuapp.com/deleteOrderAdmin/${id}`,{
+        fetch(`https://rafi-automobile-server-side.onrender.com/deleteOrderAdmin/${id}`,{
             method:"DELETE",
      })
      .then((res) => res.json())

@@ -47,7 +47,7 @@ const Register = () => {
 
 
   const handleUserInfoRegister=(email)=>{
-    fetch('https://secret-castle-09652.herokuapp.com/addUserInfo',{
+    fetch('https://rafi-automobile-server-side.onrender.com/addUserInfo',{
 
         method:"POST",
         headers:{"content-type":"application/json"},

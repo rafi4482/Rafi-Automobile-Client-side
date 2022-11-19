@@ -6,7 +6,7 @@ const AddProduct = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
 
     const onSubmit = (data) => {
-        fetch('https://secret-castle-09652.herokuapp.com/addproduct',{
+        fetch('https://rafi-automobile-server-side.onrender.com/addproduct',{
 
         method:"POST",
         headers:{"content-type":"application/json"},

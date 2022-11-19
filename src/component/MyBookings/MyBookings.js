@@ -9,13 +9,13 @@ const MyBookings = () => {
     const [control,setControl]=useState(false)
   
     useEffect(() => {
-        fetch(`https://secret-castle-09652.herokuapp.com/myOrder/${email}`)
+        fetch(`https://rafi-automobile-server-side.onrender.com/myOrder/${email}`)
             .then(res => res.json())
             .then(data => setOrder(data))
     }, [email])
 
     const handleDelete=(id)=>{
-        fetch(`https://secret-castle-09652.herokuapp.com/deleteOrder/${id}`,{
+        fetch(`https://rafi-automobile-server-side.onrender.com/deleteOrder/${id}`,{
                method:"DELETE",
         })
         .then((res) => res.json())

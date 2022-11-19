@@ -5,7 +5,7 @@ import { useForm } from "react-hook-form";
 const MakeAdmin = () => {
     const { register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = (data) => {
-        fetch('https://secret-castle-09652.herokuapp.com/makeAdmin',{
+        fetch('https://rafi-automobile-server-side.onrender.com/makeAdmin',{
 
             method:"PUT",
             headers:{"content-type":"application/json"},

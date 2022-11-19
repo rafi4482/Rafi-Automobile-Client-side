@@ -16,7 +16,7 @@ const Dashboard = () => {
     const[isAdmin,setIsAdmin]=useState(false)
 
     useEffect(() => {
-         fetch(`https://secret-castle-09652.herokuapp.com/checkAdmin/${user.email}`)
+         fetch(`https://rafi-automobile-server-side.onrender.com/checkAdmin/${user.email}`)
             .then(res => res.json())
             .then((data) => {
                 if(data[0]?.role==="admin"){

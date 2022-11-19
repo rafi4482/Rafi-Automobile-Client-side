@@ -7,7 +7,7 @@ const HomeReview = () => {
     const [review,setReview]=useState([])
     
     useEffect(() => {
-        fetch('https://secret-castle-09652.herokuapp.com/getReview')
+        fetch('https://rafi-automobile-server-side.onrender.com/getReview')
             .then(res => res.json())
             .then(data => setReview(data))
     }, [])
