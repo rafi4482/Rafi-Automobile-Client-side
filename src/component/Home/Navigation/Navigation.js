@@ -18,8 +18,8 @@ const Navigation = () => {
       <Nav className="me-auto">
         <Nav.Link href="/home">Home</Nav.Link>
         <Nav.Link href="/explore">Explore</Nav.Link>
-        <Nav.Link href="/puchase/:id">Purchase</Nav.Link>
-        <Nav.Link href="/dashboard">Dashboard</Nav.Link>     
+        {/* <Nav.Link href="/puchase/:id">Purchase</Nav.Link> */}
+        {user.email  ? <Nav.Link href="/dashboard">Dashboard</Nav.Link> : null }
         {user.email &&  <span className='style' style={{color:'black'}}>{user.displayName}</span>
 }      {       
         user.email?

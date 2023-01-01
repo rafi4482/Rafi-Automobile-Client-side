@@ -5,7 +5,12 @@ import { useForm } from "react-hook-form";
 import useFirebase from '../../hooks/useFirebase';
 import React, { useEffect, useState } from 'react';
 
+
 const Purchase = () => {
+    
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     let { id } = useParams();
     const{user}=useFirebase()
     // console.log(id);
